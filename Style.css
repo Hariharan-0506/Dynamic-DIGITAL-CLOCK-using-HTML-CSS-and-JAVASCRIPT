@@ -1,0 +1,32 @@
+.clock-container {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .clock {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .hours, .minutes, .seconds {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .hours {
+    color: #ff0000; 
+  }
+  
+  .minutes {
+    color: #00ff00; 
+  }
+  
+  .seconds {
+    color: #0000ff; 
+  }
+  
